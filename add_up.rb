@@ -6,13 +6,13 @@ Call the function three times within the program, and each time print out the re
 
 def add_up(i)
     sum = 0
-    for i in 0..i do
-       sum = i + sum
-       i += 1 
+    n = i
+    for n in 0..n do
+       sum = sum + n 
     end
-    puts "The sum of #{i} is: #{sum}"
+    puts "The sum of #{n} is: #{sum}"
 end
 
-add_up(5)
-add_up(10)
-add_up(15)
+add_up(1)
+add_up(2)
+add_up(3)
